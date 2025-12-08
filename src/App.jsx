@@ -6,7 +6,7 @@ import {
 } from 'lucide-react';
 
 /**
- * Ansan Green Pass - Korean Version
+ * Ansan Green Pass - Korean Version1
  * Theme: "Ethereal Forest"
  */
 
