@@ -136,7 +136,7 @@ const App = () => {
           <div>
             <h1 className="text-xl font-extrabold text-slate-800 tracking-tight flex items-center gap-2">
               <Leaf className="text-emerald-600 fill-emerald-600" size={20} />
-              Ansan Green Pass
+              안산 그린 패스
             </h1>
           </div>
           <div className="flex items-center gap-4">
@@ -315,7 +315,7 @@ const App = () => {
                       >
                         <div className="absolute -right-8 -top-8 text-white/10 rotate-12"><Leaf size={100} /></div>
                         <div className="relative z-10">
-                          <span className="bg-white/20 px-2 py-0.5 rounded text-[10px] font-medium backdrop-blur uppercase">Certificate</span>
+                          <span className="bg-white/20 px-2 py-0.5 rounded text-[10px] font-medium backdrop-blur uppercase">인증서</span>
                           <h3 className="text-lg font-bold mt-2">{tree.type}</h3>
                           <p className="text-[10px] text-emerald-100 mt-1 flex items-center gap-1 opacity-80"><MapIcon size={10}/> {tree.location}</p>
                           <div className="mt-4 pt-3 border-t border-white/20 flex justify-between text-[10px] opacity-80">
@@ -401,7 +401,7 @@ const App = () => {
                   <div className="flex"><span className="text-[#8d806a] w-16">식재 장소:</span> <span className="text-[#2c3e50]">{selectedCertificate.location}</span></div>
                 </div>
                 <div className="mt-8 flex justify-between items-end relative">
-                  <div className="text-left"><div className="text-[10px] font-bold text-[#1f4e3d] opacity-80 flex items-center gap-1"><Leaf size={10} /> ANSAN GREEN PASS</div></div>
+                  <div className="text-left"><div className="text-[10px] font-bold text-[#1f4e3d] opacity-80 flex items-center gap-1"><Leaf size={10} /> 안산 그린 패스</div></div>
                   <div className="text-right relative">
                     <p className="font-bold text-[#2c3e50] font-serif">안산시청</p>
                     <div className="absolute -top-6 -left-6 w-20 h-20 border-[3px] border-red-600/80 rounded-full flex items-center justify-center transform -rotate-12 opacity-80 pointer-events-none mix-blend-multiply">
